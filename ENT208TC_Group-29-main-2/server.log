@@ -1,0 +1,174 @@
+INFO:     Started server process [772]
+INFO:     Waiting for application startup.
+INFO:superta:Ingested 18 pages from 1 Dynamic Systems Introduction - RBE211TC XJTLU.pdf
+INFO:superta:Ingested 58 pages from 2 Modelling Mechanical Systems - RBE211TC XJTLU.pdf
+INFO:superta:Ingested 91 pages from 3 Modelling Electrical and Electromechanical Systems - RBE211TC XJTLU.pdf
+INFO:superta:Ingested 116 pages from 4 Lagrange Method - RBE211TC XJTLU.pdf
+INFO:superta:Ingested 154 pages from 5 Responses of Linear Dynamic Systems - RBE211TC XJTLU.pdf
+INFO:superta:Ingested 187 pages from 6 Vibration of Mechanical Systems - SDOF Systems (Part 1) - RBE211TC XJTLU.pdf
+INFO:superta:Ingested 222 pages from 7 Vibration of Mechanical Systems - SDOF Systems (Part 2) - RBE211TC XJTLU.pdf
+INFO:superta:Ingested 251 pages from 8 Vibration of Mechanical Systems - MDOF Systems (Part 1) - RBE211TC XJTLU.pdf
+INFO:superta:Ingested 278 pages from 9 Vibration of Mechanical Systems - MDOF Systems (Part 2) - RBE211TC XJTLU.pdf
+INFO:superta:Ingested 285 pages from Module Handbook.pdf
+INFO:superta:PDF cache warmed: ['rbe211']
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57064 - "GET / HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57079 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57322 - "GET / HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57377 - "GET / HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57377 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57383 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57382 - "GET /static/LOGO3.jpg HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57377 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57382 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57383 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57384 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57377 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:httpx:HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     10.13.66.89:57393 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57505 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57506 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57507 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     10.13.66.89:57508 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     10.13.66.89:59081 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     10.13.66.89:59082 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     10.13.66.89:59083 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     10.13.66.89:59084 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET / HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /static/LOGO3.jpg HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     180.208.58.168:0 - "GET / HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /static/LOGO3.jpg HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET / HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /static/LOGO3.jpg HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.129.228.121:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     116.147.250.27:0 - "GET / HTTP/1.1" 200 OK
+INFO:     116.147.250.27:0 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     116.147.250.27:0 - "GET /static/LOGO3.jpg HTTP/1.1" 200 OK
+INFO:     116.147.250.27:0 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     116.147.250.27:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     116.147.250.27:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     116.147.250.27:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     116.147.250.27:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     116.147.250.27:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     116.147.250.27:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     116.147.250.27:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     116.147.250.27:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     116.147.250.27:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     116.147.250.27:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     52.112.49.156:0 - "GET / HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     52.112.49.156:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.129.228.121:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     10.13.66.89:64738 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     10.13.66.89:64762 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET / HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /static/LOGO3.jpg HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     180.208.58.168:0 - "GET / HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /static/LOGO3.jpg HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     180.208.58.168:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     180.208.58.168:0 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET / HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /static/LOGO3.jpg HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     180.208.58.139:0 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     52.112.74.62:0 - "GET / HTTP/1.1" 200 OK
+INFO:     52.112.74.62:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.129.228.121:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     45.129.228.121:0 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     180.208.58.185:0 - "GET / HTTP/1.1" 200 OK
+INFO:     180.208.58.185:0 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     180.208.58.185:0 - "GET /static/LOGO3.jpg HTTP/1.1" 200 OK
+INFO:     180.208.58.185:0 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     180.208.58.185:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     180.208.58.185:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     180.208.58.185:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     180.208.58.185:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     180.208.58.185:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     180.208.58.139:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     180.208.58.139:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     180.208.58.120:0 - "GET / HTTP/1.1" 200 OK
+INFO:     180.208.58.120:0 - "GET /static/LOGO3.jpg HTTP/1.1" 200 OK
+INFO:     180.208.58.120:0 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     180.208.58.120:0 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     180.208.58.120:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     180.208.58.120:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     180.208.58.120:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     180.208.58.120:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     180.208.58.120:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.129.228.121:0 - "GET / HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     45.129.228.121:0 - "GET /static/LOGO3.jpg HTTP/1.1" 304 Not Modified
+INFO:     45.129.228.121:0 - "GET /static/script.js HTTP/1.1" 304 Not Modified
+INFO:     45.129.228.121:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/cs101 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/rbe211 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/math201 HTTP/1.1" 200 OK
+INFO:     45.129.228.121:0 - "GET /api/files/phys101 HTTP/1.1" 200 OK
